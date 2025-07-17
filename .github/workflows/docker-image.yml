@@ -2,7 +2,7 @@ name: Build and Push Docker image
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   build:
@@ -23,5 +23,5 @@ jobs:
       with:
         context: .
         push: true
-        tags: 사용자명/이미지명:latest
+        tags: Dohyunnn/python-one:latest
 
