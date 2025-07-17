@@ -23,5 +23,5 @@ jobs:
       with:
         context: .
         push: true
-        tags: Dohyunnn/python-one:latest
+        tags: dorrry/python-one:latest
 
